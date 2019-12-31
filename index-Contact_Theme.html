@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="roy2.css">
+<body>
+
+<header class="header brown-header">
+  <h1>
+  Contact
+  </h1>
+  <!--MENU-->
+  <nav>
+    <ul class="menu">
+      <li>
+        Menu
+        <ul class="sub-menu">
+          <a href="index_Theme.html"><li>Qui Suis-Je ?</li></a>
+          <a href="index-Musique_Theme.html"><li>Musique</li></a>
+          <a href="index-Informatique_Theme.html"><li>Informatique</li></a>
+          <a href="index-Contact_Theme.html"><li>Contact</li></a>
+          <a href="index-Contact.html"><li>Theme</li></a>
+        </ul>
+      </li>
+    </ul>
+  </nav>  
+  <script src="theme-changer.js"></script>
+</header>
+
+<div id="content">
+<div class="brieftext">
+  <p>
+  Si vous souhaitez me faire remarquer des anomalies sur le site, si vous avez des questions ou meme des suggestions, n'hésitez pas 
+  à me le faire savoir !
+  </p>     
+</div>
+ 
+<form class="form-inline" action="mailto:trohymas@gmail.com" method="post" enctype="text/plain">
+  <fieldset>
+    <legend>Qui êtes vous ?</legend> 
+  <label for="Prénom">Prénom:</label>
+  <input type="Prénom" id="Prénom" placeholder="Votre Prénom" name="Prénom">
+  <label.inline>
+    <select name="Sexe">
+      <option>Homme</option>
+      <option>Femme</option>
+    </select>
+  </label.inline> 
+  <label for="Nom">Nom:</label>
+  <input type="Nom" id="Nom" placeholder="Votre Nom de Famille" name="Nom">
+  <label.inline for="Email">Email:</label.inline>
+  <input id="email" type="email" name="email" placeholder="Votre adresse Email" value=" " />
+  <label>
+    <p>Quelle est votre tranche d'âge:<br>
+      <input type="radio" name="age" value="18-30">
+      <label.inline for="18"> 18 - 30 ans</label.inline><br>
+      <input type="radio" name="age" value="30-45">
+      <label.inline for="30"> 30 - 45 ans</label.inline><br>
+      <input type="radio" name="age" value="46-60">
+      <label.inline for="50"> 46 - 60 ans</label.inline><br>
+      <input type="radio" name="age" value="+ 60">
+      <label.inline for="70"> Plus de 60 ans</label.inline>
+    </p>
+  </label>
+  </fieldset>
+  <fieldset>
+    <legend>Votre avis</legend>
+    <textarea name="Impressions" rows="2" cols="50">
+    </textarea><br/>
+  </fieldset>
+  <input type="submit" value="Envoyer"></button>
+  </fieldset>
+</form> 
+<!-- BANDEROLLE RESEAUX SOCIAUX -->
+
+<footer class="socialmedia brown-header">
+  <h3>Mes réseaux</h3>
+  <p>
+    <a href ="https://www.youtube.com/channel/UCrr-q0W1bofvsFsjd392vRw" title="Youtube">
+      <img src="pics/youtube.png" alt="youtube" hspace= 20/>
+    </a>
+    <a href ="https://www.instagram.com/thomasroymusic/?hl=fr" title="Instagram">
+      <img src="pics/instagram.png" alt="instagram" />
+    </a>
+  </p>
+</footer>
+</body>
+</html>
